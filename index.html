@@ -1,96 +1,138 @@
-Ôªø<!doctype html>
+<!doctype html>
 <head>
 <meta charset="utf-8" />
-<script language="javascript">
-	var scrollFunc=function(e)
-	{ 
-		e=e || window.event; 
-		if(e.wheelDelta && event.ctrlKey)
-		{ 
-			event.returnValue=false;
-		}
-		else
-		if(e.detail)
-		{
-			event.returnValue=false; 
-		} 
-	}
-	if(document.addEventListener)
-	{ 
-		document.addEventListener('DOMMouseScroll',scrollFunc,false); 
-	} 
-	window.onmousewheel=document.onmousewheel=scrollFunc;
-</script>
+    <script language="javascript">
+        var scrollFunc = function (e) {
+            e = e || window.event;
+            if (e.wheelDelta && event.ctrlKey) {
+                event.returnValue = false;
+            }
+            else
+                if (e.detail) {
+                    event.returnValue = false;
+                }
+        }
+        if (document.addEventListener) {
+            document.addEventListener('DOMMouseScroll', scrollFunc, false);
+        }
+        window.onmousewheel = document.onmousewheel = scrollFunc;
+    </script>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
 	<meta name="Keywords" content="AEOJ,AEoj,oj,AE,Online Judge,NOIP,OI">
-	<meta name="Description" content="designed by Acheing & Eden">
+	<meta name="Description" content="designed by Acheing & Eden & Panole">
 	<title>AEoj</title>
-	<style>
-	body{background:url("indexpaper.jpg")top center;background-size:cover;background-repeat:no-repeat;text-align:center}
-	h1{color:#33ffff;text-align:center;line-height:180px;font-weight:300;font-size:100px;}
-	.banner{width:100%;height:230px;background:url("images/banner.jpg") top center;background-repeat:no-repeat;}
-	.upload{width:180px;height:24px;display:inline-block;margin:5px auto;text-align:center;line-height:24px;text-decoration:none;font-size:16px;border-radius:20px;border:1px solid #E0EEE0;color:#E0EEE0}
-	.upload:hover{background:#B7B7B7;color:#fff}
-	</style>
+    <style>
+        body {
+            background: url('indexpaper.jpg') no-repeat center top;
+            background-size: cover;
+            text-align: center;
+            height: 484px;
+        }
+
+        h1 {
+            color: #33ffff;
+            text-align: center;
+            line-height: 180px;
+            font-weight: 300;
+            font-size: 100px;
+            height: 140px;
+            width: 640px;
+        }
+
+        .banner {
+            width: 100%;
+            height: 230px;
+            background: url("images/banner.jpg") top center;
+            background-repeat: no-repeat;
+        }
+
+        .upload {
+            width: 180px;
+            height: 24px;
+            display: inline-block;
+            margin: 5px auto;
+            text-align: center;
+            line-height: 24px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 20px;
+            border: 1px solid #E0EEE0;
+            color: #E0EEE0
+        }
+
+            .upload:hover {
+                background: #B7B7B7;
+                color: #fff
+            }
+    </style>
 </head>
 <body>
-	<h1>AEoj TCÂêàÈõÜ</h1>
-	<div style='float:left;width:200px;margin-left:100px'>
-	<a href="558.html" class="upload">srm 558 div1 1000</a><br>
-	<a href="559.html" class="upload">srm 559 div1 900</a><br>
-	<a href="560.html" class="upload">srm 560 div1 1000</a><br>
-	<a href="561.html" class="upload">srm 561 div1 1000</a><br>
-	<a href="562.html" class="upload">srm 562 div1 1000</a><br>
-	<a href="563.html" class="upload">srm 563 div1 950</a><br>
-	<a href="564.html" class="upload">srm 564 div1 850</a><br>
-	<a href="565.html" class="upload">srm 565 div1 1000</a><br>
-	</div>
-	<div style='float:left;width:200px;margin-left:30px'>
-	<a href="566.html" class="upload">srm 566 div1 1000</a><br>
-	<a href="567.html" class="upload">srm 567 div1 1000</a><br>
-	<a href="568.html" class="upload">srm 568 div1 1000</a><br>
-	<a href="569.html" class="upload">srm 569 div1 1000</a><br>
-	<a href="570.html" class="upload">srm 570 div1 900</a><br>
-	<a href="571.html" class="upload">srm 571 div1 1000</a><br>
-	<a href="572.html" class="upload">srm 572 div1 1000</a><br>
-	<a href="573.html" class="upload">srm 573 div1 850</a><br>
-	</div>
-	<div style='float:left;width:200px;margin-left:30px'>
-	<a href="574.html" class="upload">srm 574 div1 1050</a><br>
-	<a href="575.html" class="upload">srm 575 div1 1000</a><br>
-	<a href="576.html" class="upload">srm 576 div1 900</a><br>
-	<a href="577.html" class="upload">srm 577 div1 1000</a><br>
-	<a href="578.html" class="upload">srm 578 div1 1000</a><br>
-	<a href="579.html" class="upload">srm 579 div1 1000</a><br>
-	<a href="580.html" class="upload">srm 580 div1 1000</a><br>
-	<a href="581.html" class="upload">srm 581 div1 900</a><br>
-	</div>
-	<div style='float:left;width:200px;margin-left:30px'>
-	<a href="582.html" class="upload">srm 582 div1 1000</a><br>
-	<a href="583.html" class="upload">srm 583 div1 950</a><br>
-	<a href="584.html" class="upload">srm 584 div1 900</a><br>
-	<a href="585.html" class="upload">srm 585 div1 1000</a><br>
-	<a href="586.html" class="upload">srm 586 div1 1000</a><br>
-	<a href="587.html" class="upload">srm 587 div1 900</a><br>
-	<a href="588.html" class="upload">srm 588 div1 1100</a><br>
-	<a href="589.html" class="upload">srm 589 div1 900</a><br>
-	</div>
-	<div style='float:left;width:200px;margin-left:30px'>
-	<a href="590.html" class="upload">srm 590 div1 1000</a><br>
-	<a href="591.html" class="upload">srm 591 div1 900</a><br>
-	<a href="592.html" class="upload">srm 592 div1 1000</a><br>
-	<a href="593.html" class="upload">srm 593 div1 1000</a><br>
-	<a href="594.html" class="upload">srm 594 div1 950</a><br>
-	<a href="595.html" class="upload">srm 595 div1 900</a><br>
-	<a href="596.html" class="upload">srm 596 div1 1000</a><br>
-	<a href="597.html" class="upload">srm 597 div1 900</a><br>
-	</div>
+    <h1 style='float: left; margin-left: 100px'>AEoj TC∫œºØ</h1>
+    <div style='float: left; margin-left: 30px; color: cornsilk; text-align:left; height:180px; width: 450px;'>
+        <b>ºÚΩÈ£∫</b><br />
+            &nbsp;Topcoder Single Round Match Div1 Level3 ∫œºØ<br />
+            &nbsp;∫¨”–÷–ŒƒÃ‚ƒø¥Û“‚£¨µ´Ωˆπ©≤Œøº°£<br /><br />
+        <b>–¬œ˚œ¢£®“‘œ¬»˝Œª ˝◊÷¥˙±ÌSRM Div1≥°∫≈£©£∫</b><br />
+            &nbsp;2017ƒÍ11‘¬--2018ƒÍ4‘¬£∫ÃÌº”558µΩ599<br />
+            &nbsp;2018ƒÍ10‘¬£∫–¬‘ˆ541<br />
+    </div>
+    <br>
+    <div style='float: left; width: 200px; margin-left: 100px; margin-top: 30px'>
+        <a href="558.html" class="upload">srm 558 div1 1000</a><br>
+        <a href="559.html" class="upload">srm 559 div1 900</a><br>
+        <a href="560.html" class="upload">srm 560 div1 1000</a><br>
+        <a href="561.html" class="upload">srm 561 div1 1000</a><br>
+        <a href="562.html" class="upload">srm 562 div1 1000</a><br>
+        <a href="563.html" class="upload">srm 563 div1 950</a><br>
+        <a href="564.html" class="upload">srm 564 div1 850</a><br>
+        <a href="565.html" class="upload">srm 565 div1 1000</a><br>
+    </div>
+    <div style='float: left; width: 200px; margin-left: 30px; margin-top: 30px'>
+        <a href="566.html" class="upload">srm 566 div1 1000</a><br>
+        <a href="567.html" class="upload">srm 567 div1 1000</a><br>
+        <a href="568.html" class="upload">srm 568 div1 1000</a><br>
+        <a href="569.html" class="upload">srm 569 div1 1000</a><br>
+        <a href="570.html" class="upload">srm 570 div1 900</a><br>
+        <a href="571.html" class="upload">srm 571 div1 1000</a><br>
+        <a href="572.html" class="upload">srm 572 div1 1000</a><br>
+        <a href="573.html" class="upload">srm 573 div1 850</a><br>
+    </div>
+    <div style='float: left; width: 200px; margin-left: 30px; margin-top: 30px'>
+        <a href="574.html" class="upload">srm 574 div1 1050</a><br>
+        <a href="575.html" class="upload">srm 575 div1 1000</a><br>
+        <a href="576.html" class="upload">srm 576 div1 900</a><br>
+        <a href="577.html" class="upload">srm 577 div1 1000</a><br>
+        <a href="578.html" class="upload">srm 578 div1 1000</a><br>
+        <a href="579.html" class="upload">srm 579 div1 1000</a><br>
+        <a href="580.html" class="upload">srm 580 div1 1000</a><br>
+        <a href="581.html" class="upload">srm 581 div1 900</a><br>
+    </div>
+    <div style='float: left; width: 200px; margin-left: 30px; margin-top: 30px'>
+        <a href="582.html" class="upload">srm 582 div1 1000</a><br>
+        <a href="583.html" class="upload">srm 583 div1 950</a><br>
+        <a href="584.html" class="upload">srm 584 div1 900</a><br>
+        <a href="585.html" class="upload">srm 585 div1 1000</a><br>
+        <a href="586.html" class="upload">srm 586 div1 1000</a><br>
+        <a href="587.html" class="upload">srm 587 div1 900</a><br>
+        <a href="588.html" class="upload">srm 588 div1 1100</a><br>
+        <a href="589.html" class="upload">srm 589 div1 900</a><br>
+    </div>
+    <div style='float: left; width: 200px; margin-left: 30px; margin-top: 30px'>
+        <a href="590.html" class="upload">srm 590 div1 1000</a><br>
+        <a href="591.html" class="upload">srm 591 div1 900</a><br>
+        <a href="592.html" class="upload">srm 592 div1 1000</a><br>
+        <a href="593.html" class="upload">srm 593 div1 1000</a><br>
+        <a href="594.html" class="upload">srm 594 div1 950</a><br>
+        <a href="595.html" class="upload">srm 595 div1 900</a><br>
+        <a href="596.html" class="upload">srm 596 div1 1000</a><br>
+        <a href="597.html" class="upload">srm 597 div1 900</a><br>
+    </div>
 	<br>
-	<div style='float:left;width:200px;margin-left:100px;margin-top:30px'>
-	<a href="598.html" class="upload">srm 598 div1 950</a><br>
-	<a href="599.html" class="upload">srm 599 div1 950</a><br>
-	<a href="541.html" class="upload">srm 541 div1 1000</a><br>
-	</div>
+    <div style='float: left; width: 200px; margin-left: 100px; margin-top: 30px'>
+        <a href="598.html" class="upload">srm 598 div1 950</a><br>
+        <a href="599.html" class="upload">srm 599 div1 950</a><br>
+        <a href="541.html" class="upload">srm 541 div1 1000</a><br>
+    </div>
 </body>
 </html>
