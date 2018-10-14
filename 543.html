@@ -1,4 +1,30 @@
-<html><body bgcolor="#ffffff" text="#000000"><table><tr><td colspan="2"><h3>Problem Statement</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td>Princess Elly recently discovered secret plans for building a whole bunch of new death stars. Now she and the rebels are desperately trying to destroy them before they are fully operational.<p></p>
+
+<meta charset="utf-8" />
+    <a href="index.html"><h2>back to the menu</h2></a>
+    <a href="https://info.flagcounter.com/yN1z"><img src="https://s11.flagcounter.com/count2/yN1z/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+    
+    <link type="image/x-icon" rel="shortcut icon" href="http://www.topcoder.com/i/favicon.ico"/>
+   
+<h1 align="center">TopCoder SRM 543 - 1000: EllysDeathStars</h1>
+<html>
+    
+<body bgcolor="#ffffff" text="#000000"><table><tr><td colspan="2"><h3>Problem Statement</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td>
+
+<b>题目简述：</b><br /><br />
+    在一个2D平面上，有一些飞船沿着各自的有向线段以各自的速度移动。它们同时出现在起点，一旦到达终点就消失。<br />
+    一个飞船可以在攻击在它的射程范围内death star。<br />
+    一个飞船在同一时间可以攻击多个death star。若攻击X个death star，需要消耗X点能量。<br />
+    每个飞船有各自的初始能量值，如果能量不足则无法攻击。<br />
+    同一时刻一个death star只能被一个飞船攻击，且它被攻击后不会消失，在下一时刻它依然能被攻击。<br />
+    <strong>输入</strong>每个<strong>death star的坐标</strong>，和<strong>飞船的起点坐标、终点坐标、速度、射程、初始能量。</strong><br />
+    <strong>求</strong>所有飞船消耗<strong>能量总和的最大值</strong>。<br /><br />
+<b>数据范围：</b><br />
+    <br />
+    death star个数不超过<strong>20</strong>个<br />
+    飞船个数不超过<strong>20</strong>个<br />
+    <br /><br /><br />
+    
+Princess Elly recently discovered secret plans for building a whole bunch of new death stars. Now she and the rebels are desperately trying to destroy them before they are fully operational.<p></p>
 
 They are sending several ships to destroy the death stars. For simplicity, in this problem the battle will take place in a 2D plane. The distances are so large that we will view all death stars and all ships as points in this plane. All death stars are stationary. All ships appear at their starting positions at the same time. Each ship is a point moving at some constant speed along some line segment, however the speeds for different ships may be different. As soon as a ship reaches the end of its segment, it disappears from the battlefield. (This does not necessarily happen at the same time for all the ships.) The rebels know the locations of all death stars. Also, for each ship they know its planned trajectory, its speed, the range of its lasers, and the amount of energy available for shooting them.<p></p>
 A ship can shoot at a death star if:
